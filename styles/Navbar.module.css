@@ -1,0 +1,15 @@
+.navContainer {
+    height: 100%;
+    width: 100%;
+    overflow-y: auto;
+    overflow-x: hidden;
+    background: bisque;
+}
+
+.listContents {
+    list-style: none;
+}
+
+.listItemLink {
+    text-decoration: none;
+}
