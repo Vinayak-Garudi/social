@@ -3,13 +3,41 @@
     width: 100%;
     overflow-y: auto;
     overflow-x: hidden;
-    background: bisque;
+    background: linear-gradient(#55b4b7, #f6f6f6);
 }
 
 .listContents {
     list-style: none;
+    margin: 0;
+    padding: 0;
 }
 
 .listItemLink {
     text-decoration: none;
+    color: darkred;
+}
+
+.iconDiv {
+    display: flex;
+    justify-content: center;
+    margin: 1rem 0;
+    font-size: x-large;
+    font-weight: bold;
+    color: red;
+}
+
+.listItem {
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0.1rem;
+    border-bottom: 1px solid #8b000063;
+    width: 85%;
+    padding: 0.5rem;
+    cursor: pointer;
+    margin: auto;
+}
+
+#selectedNav {
+    background: #00000021;
 }
