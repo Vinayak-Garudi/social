@@ -4,3 +4,41 @@
     overflow: hidden;
     background: linear-gradient(#55b4b7, #f6f6f6);
 }
+
+.userProfile {
+    position: fixed;
+    bottom: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 2rem 0;
+}
+
+.centerContent {
+    display: flex;
+    justify-content: center;
+}
+
+.userLogo {
+    background: rgb(71, 157, 160);
+    color: white;
+    font-size: 8rem;
+    padding: 1rem;
+    border-radius: 50%;
+    width: 8rem;
+    height: 8rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0.5rem 0;
+    border: 0.5rem solid white;
+    cursor: pointer;
+}
+
+.userName {
+    font-size: large;
+    font-weight: 600;
+    color: darkblue;
+    text-decoration: underline;
+    cursor: pointer;
+}

@@ -16,7 +16,7 @@ const index = () => {
   }
   return (
     <>
-      <div style={{ width: "60vw" }} className="pageContainer">
+      <div style={{ background:"cadetblue" }} className="pageContainer">
         <div className={styles.quickPost}>
           <div className={styles.userContent}>
             <div className={styles.iconSpace}>

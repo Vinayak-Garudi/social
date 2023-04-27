@@ -1,0 +1,16 @@
+.errorContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    justify-content: center;
+    font-size: x-large;
+    border: 1px solid red;
+    background: linear-gradient(#55b4b7, #f6f6f6);
+}
+
+.backLink {
+    color: darkblue;
+    text-decoration: underline;
+    cursor: pointer;
+}

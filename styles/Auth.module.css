@@ -1,0 +1,29 @@
+.authContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.switchAuth {
+    cursor: pointer;
+    color: darkblue;
+    font-weight: bold;
+    font-size: large;
+}
+
+.showPwd {
+    display: flex;
+    font-weight: 600;
+}
+
+.authHead {
+    font-size: xx-large;
+    font-weight: bold;
+    margin-bottom: 2rem;
+}
+
+.ipTitles {
+    font-size: large;
+}

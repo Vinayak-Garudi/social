@@ -10,7 +10,7 @@ const Navbar = () => {
       <div className={styles.navContainer}>
         <div className={styles.iconDiv}>
           Twitter
-          <Image src={'/post2.png'} style={{ marginLeft: "1rem" }} width={25} height={25} />
+          <Image src={'/post3.png'} style={{ marginLeft: "1rem" }} width={25} height={25} />
         </div>
         <div style={{ fontSize: "large", fontWeight: "600" }} className={styles.navContent}>
           <ul className={styles.listContents}>
